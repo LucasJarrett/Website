@@ -3,16 +3,28 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+        <script src="https://kit.fontawesome.com/a9f7c6583a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <title>Lucas Jarrett</title>
     </head>
     <body>
-        <div class="profile">
-            <img src="dp.jpg" alt="" class="box-img">
+        <div class="box">
+            <img src="profile.jpg" alt="" class="box-img">
             <h1>Lucas Jarrett</h1>
             <h5>Software Engineer - The University of Guelph</h5>
-            <p>Third year software engineering co-op student at the University of Guelph</p>
+            <p>Third year software engineering co-op student at the University of Guelph.</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/lucas-jarrett-62642a1b3/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a onclick="copyEmail()"><i class="fas fa-envelope-square" aria-hidden="true"></i></a></li>
+                <li><a href="Lucas Jarrett Resume.pdf"><i class="fas fa-file" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/LucasJarrett"><i class="fab fa-github-square" aria-hidden="true"></i></a></li>
+            </ul>    
+            <script>
+                function copyEmail(){
+                    navigator.clipboard.writeText("ljarrett@uoguelph.ca");
+                    alert("Copied!");
+                }
+            </script>
         </div>
     </body>
 </html>>
