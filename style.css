@@ -1,7 +1,13 @@
 body{
     margin: 0;
     padding: 0;
+    
+  }
+  header{
+    margin: 0;
+    padding: 0;
     background: url(background.jpg) no-repeat;
+    overflow:hidden;
     background-size: cover;
   }
   .box{
