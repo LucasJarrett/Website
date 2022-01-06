@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    
+    background-color: #f4f4f4;
   }
   header{
     margin: 0;
@@ -17,6 +17,7 @@ body{
     text-align: center;
     margin: auto;
     margin-top: 5%;
+    margin-bottom: 5%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
   }
@@ -56,4 +57,30 @@ body{
   .box li a:hover{
     color: #b9b9b9;
   }
-  
+  .expBox {
+    text-align: center;
+    margin: auto;
+    font-family: 'Century Gothic',sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 1200px;
+
+  }
+  .expBox h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 100;
+
+  }
+  .expBox h2{
+    font-size: 32px;
+    font-weight: 100;
+
+  }
+  hr.rounded {
+    border: 3px solid rgb(5, 20, 95);
+    border-radius: 5px;
+  }
+  .expBox p {
+    text-align: left;
+  }
